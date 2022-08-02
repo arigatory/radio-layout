@@ -26,4 +26,29 @@
 
 .header__list-item {
   margin-right: 58px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #121723;
+}
+
+.header__search {
+  background: none;
+  border: none;
+}
+
+.enter-link{
+  text-decoration: none;
+  color: #121723;
+  border: 2px solid #121723;
+  width: 104px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  vertical-align: middle;
+  height: 40px;
+  border-radius: 77px;
 }
