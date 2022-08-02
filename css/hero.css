@@ -4,4 +4,63 @@
 
 .hero__content {
   display: flex;
+  justify-content: space-between;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: #121723;
+  padding-top: 92px;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.hero__title-accent {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.hero__text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #121723;
+  max-width: 635px;
+  margin-bottom: 45px;
+}
+
+.hero__link {
+  width: 245px;
+  height: 70px;
+  background: #6d31ee;
+  border-radius: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.hero__link:hover {
+  background: #aa9dfa;
+  color: white;
+}
+
+.hero__link:focus {
+  background: #aa9dfa;
+  border: 2px solid #4f28a5;
+}
+
+.hero__link:active {
+  background: #4f28a5;
+}
+
+.hero__image {
+  width: 350px;
+  padding-top: 38px;
+  margin-bottom: 38px;
 }
