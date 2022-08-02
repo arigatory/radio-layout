@@ -1,0 +1,9 @@
+.footer {
+  min-height: 323px;
+  background-color: #292E39;
+
+}
+
+.footer-list {
+  display: flex;
+}

@@ -1,0 +1,7 @@
+.playlists {
+  min-height: 934px;
+}
+
+.playlists-list {
+  display: flex;
+}

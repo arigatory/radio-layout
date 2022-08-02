@@ -1,0 +1,8 @@
+.podcasts {
+  min-height: 1046px;
+  background-color: #F2F2F2;
+}
+
+.podcasts-list {
+  display: flex;
+}

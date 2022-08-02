@@ -26,82 +26,88 @@
 
   <header class="header">
     <div class="container">
-      <img src="img/logo.svg" alt="Logo">
-      <nav>
-        <ul>
-          <li>
-            Подкасты
-          </li>
-          <li>
-            Передачи
-          </li>
-          <li>
-            Гости
-          </li>
-          <li>
-            Плейлисты
-          </li>
-          <li>
-            О нас
-          </li>
-        </ul>
+      <div class="header__content">
+        <img src="img/logo.svg" alt="Logo" class="header__logo">
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header__list-item">
+              Подкасты
+            </li>
+            <li class="header__list-item">
+              Передачи
+            </li>
+            <li class="header__list-item">
+              Гости
+            </li>
+            <li class="header__list-item">
+              Плейлисты
+            </li>
+            <li class="header__list-item">
+              О нас
+            </li>
+          </ul>
+        </nav>
         <button>
           <img src="img/search.svg" alt="">
         </button>
         <a href="#">Вход</a>
-      </nav>
+      </div>
     </div>
   </header>
 
 
   <section class="menu">
     <div class="container">
-      <ul>
-        <li>
-          Новости
-        </li>
-        <li>
-          Блоги
-        </li>
-        <li>
-          Топы
-        </li>
-        <li>
-          Опросы
-        </li>
-        <li>
-          Рейтинги
-        </li>
-        <li>
-          Реклама
-        </li>
-      </ul>
-      <div class="on-air">
-        <img src="img/play_header_btn.svg" alt="Play">
-        <h4>Ранее в эфире</h4>
-        <h3>«Музыка»</h4>
+      <div class="menu__content">
+        <ul class="menu-list">
+          <li>
+            Новости
+          </li>
+          <li>
+            Блоги
+          </li>
+          <li>
+            Топы
+          </li>
+          <li>
+            Опросы
+          </li>
+          <li>
+            Рейтинги
+          </li>
+          <li>
+            Реклама
+          </li>
+        </ul>
+        <div class="on-air">
+          <img src="img/play_header_btn.svg" alt="Play">
+          <h4>Ранее в эфире</h4>
+          <h3>«Музыка»</h4>
+        </div>
+        <div class="on-air">
+          <img src="img/play_header_btn.svg" alt="Play">
+          <h4>Сейчас в эфире</h4>
+          <h3>«Как ты?»</h4>
+        </div>
+        <img src="img/12plus.svg" alt="">
       </div>
-      <div class="on-air">
-        <img src="img/play_header_btn.svg" alt="Play">
-        <h4>Сейчас в эфире</h4>
-        <h3>«Как ты?»</h4>
-      </div>
-      <img src="img/12plus.svg" alt="">
     </div>
   </section>
 
 
   <section class="hero">
     <div class="container">
-      <h1>
-        Радио <span>W-Wawe</span>
-      </h1>
-      <p>
-        Привет, на связи W-Wawe! Раньше мы были изданием, а теперь пробуем себя в разоворном жанре. Говорим о музыке,
-        политике, истории, науке и культуре. Здесь, помимо прямого эфира — архив передач и многое другое:)
-      </p>
-      <a href="#">Слушать эфир</a>
-      <img src="img/microphone.png" alt="">
+      <div class="hero__content">
+        <h1>
+          Радио <span>W-Wawe</span>
+        </h1>
+        <p>
+          Привет, на связи W-Wawe! Раньше мы были изданием, а теперь пробуем себя в разоворном жанре. Говорим о музыке,
+          политике, истории, науке и культуре. Здесь, помимо прямого эфира — архив передач и многое другое:)
+        </p>
+        <a href="#">Слушать эфир</a>
+        <img src="img/microphone.png" alt="">
+      </div>
     </div>
   </section>
 
@@ -112,7 +118,7 @@
         Подкасты
       </h2>
 
-      <ul>
+      <ul class="podcasts-list">
         <li>
           <img src="img/podcast1.png" alt="podcast image">
           <span>15:43</span>
@@ -354,7 +360,7 @@
         В архив попадают все передачи, которые вы пропустили! Enjoy:)
       </p>
 
-      <ul>
+      <ul class="tv-shows-list">
         <li>
           <img src="img/tvshow1.png" alt="TV Show image">
           <h3>
@@ -440,42 +446,41 @@
 
   <section class="guests">
     <div class="container">
+      <h2>
+        Гости
+      </h2>
 
-    </div>
-    <h2>
-      Гости
-    </h2>
+      <h3>
+        У нас бывают:
+      </h3>
 
-    <h3>
-      У нас бывают:
-    </h3>
+      <p>
+        Блогеры, арт-критики и деятели искусства, музыканты, молодые учёные и люди науки, историки, филологи и много
+        других интересных гостей!
+      </p>
 
-    <p>
-      Блогеры, арт-критики и деятели искусства, музыканты, молодые учёные и люди науки, историки, филологи и много
-      других интересных гостей!
-    </p>
+      <div class="guests-columns">
+        <div class="guests-accordion">
 
-    <div class="guests-columns">
-      <div class="guests-accordion">
+        </div>
 
-      </div>
+        <div class="guests-card">
+          <img src="img/guests-card.png" alt="Guest picture">
 
-      <div class="guests-card">
-        <img src="img/guests-card.png" alt="Guest picture">
+          <ul class="guests-card__social-list">
+            <li class="guests-card__social-list-item">
+              <img src="/img/instagram.svg" alt="">
+            </li>
+            <li class="guests-card__social-list-item">
+              <img src="/img/facebook.svg" alt="">
+            </li>
+            <li class="guests-card__social-list-item">
+              <img src="/img/twitter.svg" alt="">
+            </li>
+          </ul>
 
-        <ul class="guests-card__social-list">
-          <li class="guests-card__social-list-item">
-            <img src="/img/instagram.svg" alt="">
-          </li>
-          <li class="guests-card__social-list-item">
-            <img src="/img/facebook.svg" alt="">
-          </li>
-          <li class="guests-card__social-list-item">
-            <img src="/img/twitter.svg" alt="">
-          </li>
-        </ul>
-
-        <a href="#" class="guest-card-link">Эфиры с гостем</a>
+          <a href="#" class="guest-card-link">Эфиры с гостем</a>
+        </div>
       </div>
     </div>
   </section>
@@ -663,33 +668,36 @@
 
   <section class="one-wave">
     <div class="container">
-      <img src="img/one-wave.png" alt="" class="one-wave-image" />
-      <div class="one-wave-content">
-        <h2 class="one-wave-header">
-          Будь с нами на одной волне!
-        </h2>
+      <div class="one-wave__content">
+        <img src="img/one-wave.png" alt="" class="one-wave-image" />
+        <div class="one-wave-content">
+          <h2 class="one-wave-header">
+            Будь с нами на одной волне!
+          </h2>
 
-        <img src="img/wave.svg" alt="" class="wave-img">
+          <img src="img/wave.svg" width="640" alt="" class="wave-img">
 
-        <p class="one-wave__paragraph">
-          Друзья, рады представить вам продукт нашего производства! Да-да, несмотря на то, что мы только начали свой
-          путь
-          радиовещателей, нам хочется, чтобы вы могли как следует нас расслышать:)
-        </p>
+          <p class="one-wave__paragraph">
+            Друзья, рады представить вам продукт нашего производства! Да-да, несмотря на то, что мы только начали свой
+            путь
+            радиовещателей, нам хочется, чтобы вы могли как следует нас расслышать:)
+          </p>
 
-        <p class="one-wave__paragraph">
-          Итак, встречайте! Портативный радиоприёмник-колонка W-Wave 1.0 xm. Тщательный подбор всех делатей, ручная
-          сборка, качественный звук. Пока доступно только 60 штук в 3 цветах, но мы активно трудимся над новыми партиями
-          и
-          дизайном. Спешите приобрести!
-        </p>
-        <div class="one-wave__price">
-          2 800 ₽
+          <p class="one-wave__paragraph">
+            Итак, встречайте! Портативный радиоприёмник-колонка W-Wave 1.0 xm. Тщательный подбор всех делатей, ручная
+            сборка, качественный звук. Пока доступно только 60 штук в 3 цветах, но мы активно трудимся над новыми
+            партиями
+            и
+            дизайном. Спешите приобрести!
+          </p>
+          <div class="one-wave__price">
+            2 800 ₽
+          </div>
+          <a href="#">
+            <img src="img/yandex-market.svg" alt="Yandex market logo">
+            Купить на Яндекс.Маркет
+          </a>
         </div>
-        <a href="#">
-          <img src="img/yandex-market.svg" alt="Yandex market logo">
-          Купить на Яндекс.Маркет
-        </a>
       </div>
     </div>
   </section>
@@ -792,32 +800,32 @@
           <img src="img/vk.svg" alt="Youtube">
         </li>
       </ul>
-      <nav class="footer-navigation">
-        <li class="footer-navigation-item">
+      <nav class="footer-list">
+        <li class="footer-list-item">
           Подкасты
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           Плейлисты
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           Новости
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           Передачи
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           Сетка
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           Блоги
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           Гости
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           О нас
         </li>
-        <li class="footer-navigation-item">
+        <li class="footer-list-item">
           Топы
         </li>
       </nav>

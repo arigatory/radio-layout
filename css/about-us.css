@@ -1,0 +1,9 @@
+.about-us {
+  min-height: 1293px;
+  background-color: #121723;
+  color: #fff;
+}
+
+.about-us-list {
+  display: flex;
+}

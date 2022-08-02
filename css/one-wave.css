@@ -1,0 +1,8 @@
+.one-wave {
+  min-height: 804px;
+  background-color: #292E39;
+}
+
+.one-wave__content {
+  display: flex; 
+}

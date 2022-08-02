@@ -1,0 +1,15 @@
+.menu {
+  min-height: 60px;
+}
+
+.menu__content {
+  display: flex;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.on-air {
+  display: flex;
+}

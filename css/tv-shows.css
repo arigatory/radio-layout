@@ -1,0 +1,7 @@
+.tv-shows {
+  min-height: 752px;
+}
+
+.tv-shows-list {
+  display: flex;
+}

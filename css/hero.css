@@ -1,0 +1,7 @@
+.hero {
+  min-height: 450px;
+}
+
+.hero__content {
+  display: flex;
+}
