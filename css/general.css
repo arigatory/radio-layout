@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Muller';
+}
+
 .container {
   max-width: 1110px;
   margin-right: auto;
