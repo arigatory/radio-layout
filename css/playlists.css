@@ -1,7 +1,66 @@
 .playlists {
   min-height: 934px;
+  padding-top: 94px;
+}
+
+.playlists__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlists__left-column {
+  width: 35%;
+  margin-right: 34px;
 }
 
 .playlists-list {
   display: flex;
+}
+
+.playlists__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #a1a6b4;
+  margin-bottom: 8px;
+}
+
+.playlists-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.playlists-list-item {
+  width: 160px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #e6e8ec;
+}
+
+.playlists-list-item__img {
+  width: 100%;
+}
+
+.playlists-card__content {
+  padding-left: 16px;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+
+.playlists-list-card__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #121723;
+}
+
+.playlists-card__description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #a1a6b4;
 }
