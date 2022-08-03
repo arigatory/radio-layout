@@ -1,7 +1,94 @@
 .tv-shows {
   min-height: 752px;
+  padding-top: 94px;
+}
+
+.tv-shows__content {
+  display: flex;
+}
+
+.tv-shows__author {
+  font-size: 16px;
+  line-height: 16px;
+  color: #a1a6b4;
+}
+
+.tv-shows__img {
+  width: 65px;
+  height: 89px;
+  margin-bottom: 24px;
+}
+
+.shows__select-wrapper {
+  margin-bottom: 227px;
+}
+
+.tv-shows__link {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 43px;
+  gap: 4px;
+  border: 2px solid #121723;
+  border-radius: 77px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #121723;
+}
+
+.tv-shows__text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #a1a6b4;
 }
 
 .tv-shows-list {
   display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.tv-shows-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 255px;
+  margin-right: 30px;
+  background: #fff;
+  border: 1px solid #e6e8ec;
+  margin-bottom: 30px;
+}
+
+.tv-shows-card__img {
+  margin-bottom: 20px;
+}
+
+.tv-shows-card__content {
+  padding-left: 16px;
+}
+
+.tv-shows-card__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #121723;
+  margin-bottom: 4px;
+}
+
+.tv-shows-card__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #a1a6b4;
+  margin-bottom: 20px;
+}
+
+.tv-shows-card__details {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #121723;
 }
