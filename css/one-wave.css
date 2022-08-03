@@ -1,8 +1,62 @@
 .one-wave {
   min-height: 804px;
-  background-color: #292E39;
+  background-color: #292e39;
+  padding-top: 94px;
+}
+
+.one-wave__columns {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.one-wave__big-image {
+  width: 640px;
+  margin-right: 30px;
 }
 
 .one-wave__content {
-  display: flex; 
+  max-width: 40%;
+}
+
+.one-wave__title {
+  color: #f0d288;
+}
+
+.one-wave__wave-img {
+  max-width: 445px;
+}
+
+.one-wave__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.one-wave__price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding-top: 18px;
+}
+
+.one-wave__buy-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 300px;
+  height: 70px;
+
+  border: 2px solid #f0d288;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #f0d288;
 }
