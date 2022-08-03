@@ -1,8 +1,123 @@
 .podcasts {
   min-height: 1046px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
+  padding-top: 94px;
+}
+
+.podcasts__title {
+  margin-bottom: 30px;
 }
 
 .podcasts-list {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.podcast-card {
+  display: flex;
+  width: 47%;
+  min-height: 140px;
+  background: #fff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.podcast-card__img {
+  width: 112px;
+}
+
+.podcast-card__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-grow: 1;
+}
+
+.podcast-card__content {
+  display: flex;
+  padding-top: 24px;
+  padding-left: 30px;
+  justify-content: space-between;
+}
+
+.podcast-card__time {
+  font-size: 12px;
+  line-height: 12px;
+  color: #121723;
+  margin-bottom: 8px;
+}
+
+.podcast-card__header {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #121723;
+}
+
+.podcast-card__name {
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  color: #a1a6b4;
+}
+
+.podcast-card__play {
+  width: 48px;
+  height: 48px;
+  margin-right: 30px;
+}
+
+.podcast-card__footer {
+  border-top: 1px solid #e6e8ec;
+  padding-left: 30px;
+  height: 32px;
+}
+
+.podcast-card__list {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.podcast-card__list-item {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.podcast-card__list-img {
+  width: 13px;
+  margin-right: 6px;
+}
+
+.podcast-card__list-number {
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #a1a6b4;
+}
+
+.podcast__link {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 246px;
+  height: 70px;
+  border: 2px solid #6d31ee;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #6d31ee;
+  justify-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
 }

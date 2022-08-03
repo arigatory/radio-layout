@@ -19,16 +19,24 @@ a {
   color: #121723;
 }
 
-a:hover{
-  color: #6D31EE;
+a:hover {
+  color: #6d31ee;
 }
 
-a:focus{
-  background-color: #AA9DFA;
+a:focus {
+  background-color: #aa9dfa;
   color: white;
 }
 
-a:active{
-  color: #4F28A5;
+a:active {
+  color: #4f28a5;
   background-color: transparent;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  color: #121723;
+  margin-bottom: 12px;
 }
