@@ -2,6 +2,38 @@
   min-height: 1293px;
   background-color: #121723;
   color: #fff;
+  padding-top: 94px;
+}
+
+.about-us__row {
+  display: flex;
+}
+
+.about-us__title {
+  color: #fff;
+}
+
+.about-us__first-line {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #a1a6b4;
+  margin-bottom: 8px;
+}
+
+.about-us__text {
+  font-size: 20px;
+  line-height: 160%;
+  color: #a1a6b4;
+  margin-bottom: 30px;
+}
+
+.about-us__right {
+  display: flex;
+}
+
+.about-us__spiral {
+  margin-right: 30px;
 }
 
 .about-us-list {
