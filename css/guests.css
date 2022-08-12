@@ -33,7 +33,42 @@
 
 .guests-accordion {
   width: 60%;
+  margin-right: 30px;
 }
+
+.guests-accordion__item {
+  min-height: 90px;
+}
+
+.guests-accordion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-top: 1px solid #aa9dfa;
+  border-bottom: 1px solid #aa9dfa;
+  min-height: 90px;
+  cursor: pointer;
+}
+
+.guests-accordion__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.guests-accordion__content {
+  min-height: 172px;
+  padding-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  display: none;
+}
+
 
 .guests-card {
   width: 350px;
@@ -83,4 +118,8 @@
   font-size: 16px;
   line-height: 16px;
   color: #aa9dfa;
+}
+
+.active {
+  display: block;
 }
