@@ -60,3 +60,8 @@
   line-height: 100%;
   color: #f0d288;
 }
+
+.one-wave__buy-link:hover {
+  background: #F0D288;
+  color: black;
+}
