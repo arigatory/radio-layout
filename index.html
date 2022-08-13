@@ -19,11 +19,43 @@
   <link rel="stylesheet" href="css/one-wave.css">
   <link rel="stylesheet" href="css/about-us.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/modal.css">
 
   <title>W-Wave Radio</title>
 </head>
 
 <body>
+
+  <div class="modal" id="modal">
+    <h2 class="title modal__title">Вход</h2>
+    <p class="modal__text">
+      Если у вас ещё нет аккаунта, <span class="modal__text-highlight"> зарегистрируйтесь</span>
+    </p>
+    <form class="modal__form">
+      <input class="form__input" type="text" id="lname" name="lname" value="Логин">
+      <input class="form__input" type="text" id="lname" name="lname" value="Пароль">
+      <input class="hero__link form__submin-btn" type="submit" value="Войти">
+    </form>
+    <a href="#" class="enter-btn">Войти</a>
+    <h4 class="modal__social-header">
+      Войти с помощью
+    </h4>
+    <ul class="guests-card__social-list">
+      <li class="guests-card__social-list-item">
+        <img src="/img/instagram.svg" alt="">
+      </li>
+      <li class="guests-card__social-list-item">
+        <img src="/img/facebook.svg" alt="">
+      </li>
+      <li class="guests-card__social-list-item">
+        <img src="/img/twitter.svg" alt="">
+      </li>
+    </ul>
+    <button id="modal__close-btn" class="modal__close-btn"><img src="img/closed_modal.svg" alt="Close pic"></button>
+  </div>
+  <div class="modal-overlay" id="modal-overlay">
+  </div>
+
   <header class="header">
     <div class="container">
       <div class="header__content">
@@ -50,7 +82,9 @@
         <button class="header__search">
           <img class="header__search-img" src="img/search.svg" alt="">
         </button>
-        <a class="enter-link" href="#">Вход</a>
+        <a class="enter-link" id="enter" data-modal="modal-one">Вход</a>
+
+
       </div>
     </div>
   </header>
@@ -1060,6 +1094,7 @@
   <script src="scripts/splide.min.js"></script>
   <script src="scripts/accordeon.js"></script>
   <script src="scripts/slider.js"></script>
+  <script src="scripts/modal.js"></script>
 
 </body>
 
