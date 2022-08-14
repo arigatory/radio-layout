@@ -15,11 +15,29 @@
 
 .podcast-card {
   display: flex;
-  width: 47%;
   min-height: 140px;
   background: #fff;
-  margin-right: 30px;
   margin-bottom: 30px;
+  width: 540px;
+  position: relative;
+}
+
+.card__date {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 0px;
+  color: #121723;
+  background: #e6e8ec;
+  font-size: 10px;
+  line-height: 16px;
+  bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.podcast-card:nth-child(2n-1) {
+  margin-right: 30px;
 }
 
 .podcast-card__img {

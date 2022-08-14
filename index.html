@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/fonts.css" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/choices.min.css">
   <link rel="stylesheet" href="css/splide.min.css">
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/header.css">
@@ -31,9 +32,9 @@
     <p class="modal__text">
       Если у вас ещё нет аккаунта, <span class="modal__text-highlight"> зарегистрируйтесь</span>
     </p>
-    <form class="modal__form">
-      <input class="form__input" type="text" id="lname" name="lname" value="Логин">
-      <input class="form__input" type="text" id="lname" name="lname" value="Пароль">
+    <form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+      <input class="form__input" type="text" id="lname" name="lname" placeholder="Логин">
+      <input class="form__input" type="text" id="lname" name="lname" placeholder="Пароль">
       <input class="hero__link form__submin-btn" type="submit" value="Войти">
     </form>
     <a href="#" class="enter-btn">Войти</a>
@@ -162,14 +163,21 @@
       </h2>
 
       <ul class="podcasts-list">
+
         <li class="podcast-card">
           <img class="podcast-card__img" src="img/podcast1.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  15:43
+                </span>
+                <h4 class="podcast-card__header">
+                  Европа. XIX век
+                </h4>
+                <span class="podcast-card__name">
+                  Дмитрий Гутенберг
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -198,17 +206,25 @@
               </ul>
             </div>
           </div>
-
-
+          <div class="card__date">
+            14 июня
+          </div>
         </li>
+
         <li class="podcast-card">
           <img img class="podcast-card__img" src="img/podcast2.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  5:32
+                </span>
+                <h4 class="podcast-card__header">
+                  О музыке
+                </h4>
+                <span class="podcast-card__name">
+                  Дмитрий Гутенберг
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -219,33 +235,43 @@
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/play-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    258
+                    207
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/like-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    104
+                    34
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/share-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    68
+                    18
                   </span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="card__date">
+            11 июня
+          </div>
         </li>
+
         <li class="podcast-card">
           <img src="img/podcast3.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  8:54
+                </span>
+                <h4 class="podcast-card__header">
+                  Люди сегодня
+                </h4>
+                <span class="podcast-card__name">
+                  Анна Васильева
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -256,33 +282,43 @@
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/play-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    258
+                    104
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/like-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    104
+                    54
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/share-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    68
+                    42
                   </span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="card__date">
+            8 июня
+          </div>
         </li>
+
         <li class="podcast-card">
           <img src="img/podcast4.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  9:04
+                </span>
+                <h4 class="podcast-card__header">
+                  Хэллоу, Африка!
+                </h4>
+                <span class="podcast-card__name">
+                  Пётр Дмитриевский
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -293,33 +329,43 @@
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/play-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    258
+                    87
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/like-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    104
+                    44
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/share-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    68
+                    5
                   </span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="card__date">
+            5 июня
+          </div>
         </li>
+
         <li class="podcast-card">
           <img src="img/podcast5.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  7:03
+                </span>
+                <h4 class="podcast-card__header">
+                  Обо всём
+                </h4>
+                <span class="podcast-card__name">
+                  Пётр Дмитриевский
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -330,33 +376,43 @@
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/play-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    258
+                    64
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/like-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    104
+                    30
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/share-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    68
+                    8
                   </span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="card__date">
+            2 июня
+          </div>
         </li>
+
         <li class="podcast-card">
           <img src="img/podcast6.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  9:15
+                </span>
+                <h4 class="podcast-card__header">
+                  Физика цвета
+                </h4>
+                <span class="podcast-card__name">
+                  Татьяна Флеганова
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -367,33 +423,43 @@
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/play-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    258
+                    58
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/like-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    104
+                    29
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/share-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    68
+                    14
                   </span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="card__date">
+            28 мая
+          </div>
         </li>
+
         <li class="podcast-card">
           <img src="img/podcast7.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  16:04
+                </span>
+                <h4 class="podcast-card__header">
+                  Источник звука
+                </h4>
+                <span class="podcast-card__name">
+                  Пётр Дмитриевский
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -404,33 +470,43 @@
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/play-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    258
+                    55
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/like-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    104
+                    20
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/share-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    68
+                    12
                   </span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="card__date">
+            22 мая
+          </div>
         </li>
+
         <li class="podcast-card">
           <img src="img/podcast8.png" alt="podcast image">
           <div class="podcast-card__column">
             <div class="podcast-card__content">
               <div class="info">
-                <span class="podcast-card__time">15:43</span>
-                <h4 class="podcast-card__header">Европа. XIX век</h4>
-                <span class="podcast-card__name">Дмитрий Гутенберг</span>
+                <span class="podcast-card__time">
+                  6:55
+                </span>
+                <h4 class="podcast-card__header">
+                  Правила этикета
+                </h4>
+                <span class="podcast-card__name">
+                  Татьяна Флеганова
+                </span>
               </div>
 
               <img class="podcast-card__play" src="img/play-podcast.svg" alt="">
@@ -441,25 +517,29 @@
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/play-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    258
+                    24
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/like-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    104
+                    54
                   </span>
                 </li>
                 <li class="podcast-card__list-item">
                   <img class="podcast-card__list-img" src="img/share-podcast-card.svg" alt="">
                   <span class="podcast-card__list-number">
-                    68
+                    42
                   </span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="card__date">
+            18 мая
+          </div>
         </li>
+
       </ul>
 
       <a class="podcast__link" href="#">Ещё подкасты</a>
@@ -476,8 +556,8 @@
           </h2>
           <p class="tv-shows__author">Автор:</p>
           <div class="shows__select-wrapper">
-            <select class="tv-shows__select">
-              <option value="dmitry">Дмитрий Гутенберг</option>
+            <select class="tv-shows__select" id="selectCustome">
+              <option>Дмитрий Гутенберг</option>
               <option value="dmitry">Дмитрий Гутенберг</option>
               <option value="dmitry">Дмитрий Гутенберг</option>
               <option value="dmitry">Дмитрий Гутенберг</option>
@@ -711,36 +791,52 @@
           </h3>
           <div class="playlists-choices">
             <div>
-              <input type="radio" checked>
-              <label for="huey">Постпанк</label>
+              <label>
+                <input type="radio" name="genre" checked>
+                Постпанк
+              </label>
             </div>
             <div>
-              <input type="radio">
-              <label for="dewey">Хардкор</label>
+              <label>
+                <input type="radio" name="genre">
+                Хардкор
+              </label>
             </div>
             <div>
-              <input type="radio">
-              <label for="dewey">Панк-рок</label>
+              <label>
+                <input type="radio" name="genre">
+                Панк-рок
+              </label>
             </div>
             <div>
-              <input type="radio">
-              <label for="dewey">Рок</label>
+              <label>
+                <input type="radio" name="genre">
+                Рок
+              </label>
             </div>
             <div>
-              <input type="radio">
-              <label for="dewey">Прогрессивный рок</label>
+              <label>
+                <input type="radio" name="genre">
+                Прогрессивный рок
+              </label>
             </div>
             <div>
-              <input type="radio">
-              <label for="dewey">Электронная музыка</label>
+              <label>
+                <input type="radio" name="genre">
+                Электронная музыка
+              </label>
             </div>
             <div>
-              <input type="radio">
-              <label for="dewey">Классическая музыка</label>
+              <label>
+                <input type="radio" name="genre">
+                Классическая музыка
+              </label>
             </div>
             <div>
-              <input type="radio">
-              <label for="dewey">Звуки природы и шум города</label>
+              <label>
+                <input type="radio" name="genre">
+                Звуки природы и шум города
+              </label>
             </div>
           </div>
 
@@ -753,140 +849,155 @@
           <img src="img/18plus.svg" alt="">
         </div>
 
-        <ul class="playlists-list">
-          <li class="playlists-list-item">
-            <img class="playlists-list-item__img" src="img/playlists1.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists2.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists3.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists4.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists5.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists6.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists7.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists8.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists9.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists10.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists11.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-          <li class="playlists-list-item">
-            <img src="img/playlists12.png" alt="Playlist card image">
-            <div class="playlists-card__content">
-              <h3 class="playlists-card__title">
-                Ploho
-              </h3>
-              <p class="playlists-card__description">
-                3 последних альбома
-              </p>
-            </div>
-          </li>
-        </ul>
+        <div class="playlists__right-column">
+          <ul class="playlists-list">
+            <li class="playlists-list-item">
+              <img class="playlists-list-item__img" src="img/playlists1.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists2.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists3.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists4.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists5.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists6.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists7.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Joy Division
+                </h3>
+                <p class="playlists-card__description">
+                  Лучшее за всё время
+                </p>
+              </div>
+              <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists8.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists9.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists10.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists11.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
+            </li>
+            <li class="playlists-list-item">
+              <img src="img/playlists12.png" alt="Playlist card image">
+              <div class="playlists-card__content">
+                <h3 class="playlists-card__title">
+                  Ploho
+                </h3>
+                <p class="playlists-card__description">
+                  3 последних альбома
+                </p>
+              </div>
+              <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
@@ -1095,6 +1206,8 @@
   <script src="scripts/accordeon.js"></script>
   <script src="scripts/slider.js"></script>
   <script src="scripts/modal.js"></script>
+  <script src="scripts/choices.min.js"></script>
+  <script src="scripts/select.js"></script>
 
 </body>
 
