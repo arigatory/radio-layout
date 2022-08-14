@@ -1,6 +1,8 @@
+const width = document.body.clientWidth;
+let numberOfCards = 2;
 var splide = new Splide( '.splide', {
   type   : 'loop',
-  perPage: 4,
+  perPage: numberOfCards,
   perMove: 1,
 } );
 

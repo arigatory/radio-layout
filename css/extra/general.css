@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Muller', sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1110px;
+}
+
+a {
+  text-decoration: none;
+  color: #121723;
+}
+
+a:hover {
+  color: #6d31ee;
+}
+
+a:focus {
+  background-color: #aa9dfa;
+  color: white;
+}
+
+a:active {
+  color: #4f28a5;
+  background-color: transparent;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  color: #121723;
+  margin-bottom: 12px;
+}
+
+.upper-logo{
+  display:  none;
+}
+
+.upper-logo-content {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  min-height: 60px;
+}
+
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 1200px) {
+	/* ...1024
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+  .container {
+    max-width: 823px;
+  }
+  .upper-logo{
+    min-height: 60px;
+    background-color: #f2f2f2;
+    display:  block;
+  }
+  
+}
+@media (max-width: 992px) {	
+	/* ...768
+	// rules here apply to devices from 761px to 992px (inclusive)
+	... */
+}
+@media (max-width: 760px) {
+	/* ...320
+	// rules here apply to devices from 0px to 760px (inclusive)
+	... */
+}

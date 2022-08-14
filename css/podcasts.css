@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.podcast-card:nth-child(2n-1) {
+  margin-right: 30px;
+}
+
 .card__date {
   position: absolute;
   width: 51px;
@@ -36,9 +40,7 @@
   vertical-align: middle;
 }
 
-.podcast-card:nth-child(2n-1) {
-  margin-right: 30px;
-}
+
 
 .podcast-card__img {
   width: 112px;
@@ -138,4 +140,41 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
+}
+
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 1200px) {
+	/* ...1024
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+  .podcasts {
+    min-height: 1044px;
+  }
+  
+  .podcast-card {
+    display: flex;
+    min-height: 140px;
+    background: #fff;
+    margin-bottom: 30px;
+    width: 396px;
+    position: relative;
+  }
+  
+  .podcast-card:nth-child(2n-1) {
+    margin-right: 30px;
+  }
+
+}
+@media (max-width: 992px) {	
+	/* ...768
+	// rules here apply to devices from 761px to 992px (inclusive)
+	... */
+}
+@media (max-width: 760px) {
+	/* ...320
+	// rules here apply to devices from 0px to 760px (inclusive)
+	... */
 }

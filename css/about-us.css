@@ -101,10 +101,78 @@
 
 .form__submin-btn {
   margin-bottom: 30px;
+  border: none;
 }
 
 .form__agree-text {
   font-weight: 500;
   font-size: 12px;
   line-height: 12px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
+}
+
+#check {
+  display: none;
+}
+
+#check + span {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+  border: 1px solid #FFFFFF;
+}
+
+#check + span:before {
+  color: #AA9DFA;
+  content: 'L';
+  position: absolute;
+  top: -1px;
+  left: 2px;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  font-family: arial;
+  font-weight: 700;
+  -ms-transform: scaleX(-1) rotate(-35deg); /* IE 9 */
+  -webkit-transform: scaleX(-1) rotate(-35deg); /* Chrome, Safari, Opera */
+  transform: scaleX(-1) rotate(-35deg);
+}
+
+#check:checked + span:before {
+  opacity: 1;
+}
+
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 1200px) {
+	/* ...1024
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+
+  .about-us {
+    min-height: 1339px;
+  }
+
+  .about-us__spiral {
+    display: none;
+  }
+
+  .about-us__star {
+    width: 255px;
+    height: 255px;
+  }
+}
+@media (max-width: 992px) {	
+	/* ...768
+	// rules here apply to devices from 761px to 992px (inclusive)
+	... */
+}
+@media (max-width: 760px) {
+	/* ...320
+	// rules here apply to devices from 0px to 760px (inclusive)
+	... */
 }

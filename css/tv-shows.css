@@ -120,3 +120,40 @@
   color: #121723;
   margin-bottom: 23px;
 }
+
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 1200px) {
+	/* ...1024
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+
+  .tv-shows {
+    min-height: 1042px;
+  }
+
+  .tv-shows-card {
+    width: 254px;
+    margin-right: 30px;
+  }
+
+  .tv-shows-card:nth-child(3n) {
+    margin-right: 30px;
+  }
+
+  .tv-shows-card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 992px) {	
+	/* ...768
+	// rules here apply to devices from 761px to 992px (inclusive)
+	... */
+}
+@media (max-width: 760px) {
+	/* ...320
+	// rules here apply to devices from 0px to 760px (inclusive)
+	... */
+}

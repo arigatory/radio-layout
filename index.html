@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/fonts.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/choices.min.css">
-  <link rel="stylesheet" href="css/splide.min.css">
-  <link rel="stylesheet" href="css/general.css">
+  <link href="css/extra/fonts.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/extra/normalize.css">
+  <link rel="stylesheet" href="css/extra/choices.min.css">
+  <link rel="stylesheet" href="css/extra/splide.min.css">
+  <link rel="stylesheet" href="css/extra/general.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/hero.css">
@@ -56,6 +56,14 @@
   </div>
   <div class="modal-overlay" id="modal-overlay">
   </div>
+
+  <section class="upper-logo">
+    <div class="container">
+      <div class="upper-logo-content">
+        <img src="img/logo.svg" alt="" class="upper-logo-img">
+      </div>
+    </div>
+  </section>
 
   <header class="header">
     <div class="container">
@@ -128,7 +136,7 @@
             <h3 class="menu__card-name">«Как ты?»</h4>
           </div>
         </div>
-        <img src="img/12plus.svg" alt="">
+        <img class="menu__img23plus" src="img/12plus.svg" alt="">
       </div>
     </div>
   </section>
@@ -149,7 +157,7 @@
           <a class="hero__link" href="#">Слушать эфир</a>
         </div>
         <div class="hero__image">
-          <img src="img/microphone.png" alt="">
+          <img class="hero__img" src="img/microphone.png" alt="">
         </div>
       </div>
     </div>
@@ -790,60 +798,56 @@
             Жанр
           </h3>
           <div class="playlists-choices">
-            <div>
-              <label>
-                <input type="radio" name="genre" checked>
+            <div class="playlists-choices__left playlists-choices__col">
+              <label class="genre-name">
+                <input type="radio" name="genre" checked id="radio" class="radio-genre">
                 Постпанк
+                <span></span>
               </label>
-            </div>
-            <div>
-              <label>
-                <input type="radio" name="genre">
+              <label class="genre-name">
+                <input type="radio" name="genre" id="radio" class="radio-genre">
                 Хардкор
+                <span></span>
               </label>
-            </div>
-            <div>
-              <label>
-                <input type="radio" name="genre">
+              <label class="genre-name">
+                <input type="radio" name="genre" id="radio" class="radio-genre">
                 Панк-рок
+                <span></span>
               </label>
-            </div>
-            <div>
-              <label>
-                <input type="radio" name="genre">
+              <label class="genre-name">
+                <input type="radio" name="genre" id="radio" class="radio-genre">
                 Рок
+                <span></span>
               </label>
             </div>
-            <div>
-              <label>
-                <input type="radio" name="genre">
+            <div class="playlists-choices__right playlists-choices__col">
+              <label class="genre-name">
+                <input type="radio" name="genre" id="radio" class="radio-genre">
                 Прогрессивный рок
+                <span></span>
               </label>
-            </div>
-            <div>
-              <label>
-                <input type="radio" name="genre">
+              <label class="genre-name">
+                <input type="radio" name="genre" id="radio" class="radio-genre">
                 Электронная музыка
+                <span></span>
               </label>
-            </div>
-            <div>
-              <label>
-                <input type="radio" name="genre">
+              <label class="genre-name">
+                <input type="radio" name="genre" id="radio" class="radio-genre">
                 Классическая музыка
+                <span></span>
               </label>
-            </div>
-            <div>
-              <label>
-                <input type="radio" name="genre">
+              <label class="genre-name">
+                <input type="radio" name="genre" id="radio" class="radio-genre">
                 Звуки природы и шум города
+                <span></span>
               </label>
             </div>
           </div>
 
-          <p>
+          <p class="playlists__text">
             Раздел «Плейлисты» может содержать информацию, не предназначенную для несовершеннолетних
           </p>
-          <p>
+          <p class="playlists__copyright">
             © 2021 l W-Wave
           </p>
           <img src="img/18plus.svg" alt="">
@@ -864,7 +868,7 @@
               <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists2.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists2.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -876,7 +880,7 @@
               <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists3.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists3.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -888,7 +892,7 @@
               <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists4.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists4.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -900,7 +904,7 @@
               <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists5.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists5.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -912,7 +916,7 @@
               <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists6.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists6.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -924,7 +928,7 @@
               <img src="img/flag-russia.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists7.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists7.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Joy Division
@@ -936,7 +940,7 @@
               <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists8.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists8.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -948,7 +952,7 @@
               <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists9.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists9.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -960,7 +964,7 @@
               <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists10.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists10.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -972,7 +976,7 @@
               <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists11.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists11.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -984,7 +988,7 @@
               <img src="img/flag-england.png" alt="flag" class="playlists-card__flag">
             </li>
             <li class="playlists-list-item">
-              <img src="img/playlists12.png" alt="Playlist card image">
+              <img class="playlists-list-item__img" src="img/playlists12.png" alt="Playlist card image">
               <div class="playlists-card__content">
                 <h3 class="playlists-card__title">
                   Ploho
@@ -1007,7 +1011,7 @@
     <div class="container">
       <div class="one-wave__columns">
         <img src="img/one-wave.png" alt="" class="one-wave__big-image" />
-
+        <img src="img/new.svg" alt="" class="one-wave__new-image" />
         <div class="one-wave__content">
           <h2 class="one-wave__title title">
             Будь с нами на одной волне!
@@ -1060,7 +1064,7 @@
         </div>
         <div class="about-us__right">
           <img class="about-us__spiral" src="img/spiral.svg" alt="Spiral">
-          <img src="img/star.svg" alt="Spiral">
+          <img class="about-us__star" src="img/star.svg" alt="Spiral">
         </div>
       </div>
 
@@ -1139,8 +1143,12 @@
         </div>
         <input class="hero__link form__submin-btn" type="submit" value="Отправить">
         <div>
-          <input type="checkbox">
-          <label class="form__agree-text">Согласен на обработку персональных данных</label>
+
+          <label for="check" class="form__agree-text">
+            <input type="checkbox" name="check" id="check">
+            Согласен на обработку персональных данных
+            <span></span>
+          </label>
         </div>
       </form>
     </div>
@@ -1197,7 +1205,7 @@
         </div>
       </div>
     </div>
-    <img src="img/long-wave.svg" alt="Long wave">
+    <img class="footer__long-wave" src="img/long-wave.svg" alt="Long wave">
     <p class="footer__text">W-WAVE ® 2022</p>
   </footer>
 

@@ -1,10 +1,10 @@
 .footer {
   min-height: 323px;
   background-color: #292e39;
-  padding-top: 94px;
+  padding-top: 90px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-content: stretch;
   align-self: stretch;
   align-items: stretch;
@@ -13,14 +13,16 @@
 
 .footer__row {
   display: flex;
+  width: 100%;
+  margin-bottom: 70px;
 }
 
 .footer__column-left {
-  width: 50%;
+  min-width: 60%;
 }
 
 .footer__column-right {
-  width: 50%;
+  width: 400px;
 }
 
 .footer__logo {
@@ -51,9 +53,41 @@
   margin-bottom: 20px;
 }
 
+.footer-list-item:nth-last-child(-n+3) {
+  margin-right: 0;
+}
+
+.footer__long-wave {
+  margin-bottom: 10px;
+}
+
 .footer__text {
   font-size: 16px;
   line-height: 103.34%;
   color: #a1a6b4;
   align-self: center;
+}
+
+
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 1200px) {
+  /* ...1024
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+  .footer__column-left {
+    min-width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  /* ...768
+	// rules here apply to devices from 761px to 992px (inclusive)
+	... */
+}
+@media (max-width: 760px) {
+  /* ...320
+	// rules here apply to devices from 0px to 760px (inclusive)
+	... */
 }

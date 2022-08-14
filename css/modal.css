@@ -78,3 +78,23 @@
 .open-modal {
   display: block;
 }
+
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 1200px) {
+	/* ...1024
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+}
+@media (max-width: 992px) {	
+	/* ...768
+	// rules here apply to devices from 761px to 992px (inclusive)
+	... */
+}
+@media (max-width: 760px) {
+	/* ...320
+	// rules here apply to devices from 0px to 760px (inclusive)
+	... */
+}
