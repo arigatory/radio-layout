@@ -5,12 +5,19 @@
 
 .playlists__columns {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 600px;
 }
 
 .playlists__left-column {
   width: 350px;
   margin-right: 34px;
   flex-grow: 1;
+}
+
+.playlists__age {
+  max-width: 500px;
 }
 
 .playlists__subtitle {
@@ -170,19 +177,23 @@
   /* ...1024
 	// rules here apply to devices from 993px to 1200px (inclusive)
 	... */
-  
+
   .playlists {
     min-height: 1169px;
   }
 
   .playlists__columns {
-    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   .playlists__left-column {
     min-width: 600px;
     margin-right: 34px;
     flex-grow: 1;
+  }
+
+  .playlists__age{
+    order: 99;
   }
 
   .playlists__right-column {
@@ -198,7 +209,6 @@
     margin-right: 35px;
   }
 
-
   .playlists-list-item {
     position: relative;
     width: 224px;
@@ -208,11 +218,11 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .playlists-list-item:nth-child(4n) {
     margin-right: 28px;
   }
-  
+
   .playlists-list-item:nth-child(3n) {
     margin-right: 0px;
   }
@@ -221,16 +231,15 @@
     width: 112px;
     height: 112px;
   }
-  
+
   .playlists-card__content {
     padding-left: 10px;
   }
-  
+
   .playlists-card__flag {
     position: absolute;
     left: 0;
   }
-
 }
 @media (max-width: 992px) {
   /* ...768
