@@ -78,15 +78,18 @@
 	// rules here apply to devices from 993px to 1200px (inclusive)
 	... */
   .footer__column-left {
-    min-width: 50%;
+    min-width: 45%;
   }
 }
 @media (max-width: 992px) {
   /* ...768
 	// rules here apply to devices from 761px to 992px (inclusive)
 	... */
+  .footer__row {
+    flex-direction: column;
+  }
 }
-@media (max-width: 760px) {
+@media (max-width: 600px) {
   /* ...320
 	// rules here apply to devices from 0px to 760px (inclusive)
 	... */

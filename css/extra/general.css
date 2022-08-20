@@ -75,6 +75,13 @@ a:active {
 	/* ...768
 	// rules here apply to devices from 761px to 992px (inclusive)
 	... */
+  .container {
+    max-width: 540px;
+  }
+
+  .upper-logo-img {
+    width: 113px;
+  }
 }
 @media (max-width: 760px) {
 	/* ...320

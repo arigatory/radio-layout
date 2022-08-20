@@ -63,15 +63,17 @@
     display: none;
   }
 
-  .header__content {
-    
-  }
-
 }
+
 @media (max-width: 992px) {	
 	/* ...768
 	// rules here apply to devices from 761px to 992px (inclusive)
 	... */
+
+  .header-nav__list {
+    display: none;
+  }
+
 }
 @media (max-width: 760px) {
 	/* ...320

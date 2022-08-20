@@ -69,7 +69,7 @@
 }
 
 .one-wave__buy-link:hover {
-  background: #F0D288;
+  background: #f0d288;
   color: black;
 }
 
@@ -78,7 +78,7 @@
 ... */
 
 @media (max-width: 1200px) {
-	/* ...1024
+  /* ...1024
 	// rules here apply to devices from 993px to 1200px (inclusive)
 	... */
 
@@ -88,17 +88,42 @@
 
   .one-wave__big-image {
     width: 397px;
-    height: 400px;
+    height: 500px;
+    padding-top: 130px;
+  }
+
+  .one-wave__new-image {
+    width: 100px;
+  }
+
+  .one-wave__new-image {
+    top: 120px;
+  }
+
+  .one-wave__content {
+    max-width: 400px;
+  }
+
+  .one-wave__wave-img {
+    margin-bottom: 20px;
+  }
+
+  .one-wave__text {
+    margin-bottom: 25px;
   }
 
 }
-@media (max-width: 992px) {	
-	/* ...768
+@media (max-width: 992px) {
+  /* ...768
 	// rules here apply to devices from 761px to 992px (inclusive)
 	... */
+  
+  .one-wave__columns {
+    flex-direction: column;
+  }
 }
 @media (max-width: 760px) {
-	/* ...320
+  /* ...320
 	// rules here apply to devices from 0px to 760px (inclusive)
 	... */
 }

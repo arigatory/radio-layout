@@ -194,6 +194,7 @@
 
   .playlists__age{
     order: 99;
+    max-width: 1000px;
   }
 
   .playlists__right-column {
@@ -202,7 +203,7 @@
   .playlists-choices {
     display: flex;
     border-bottom: none;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   .playlists-choices__left {
